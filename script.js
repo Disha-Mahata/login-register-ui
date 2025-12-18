@@ -46,7 +46,7 @@ function checkEmail() {
 
     if (email === "") return;
 
-    // Dummy logic
+// Dummy logic
     if (email === "test@gmail.com") {
         msg.innerHTML = "Email already exists";
         msg.style.color = "red";
@@ -55,3 +55,4 @@ function checkEmail() {
         msg.style.color = "green";
     }
 }
+
